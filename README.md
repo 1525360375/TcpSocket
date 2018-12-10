@@ -1,2 +1,2 @@
-# foolish
+# fool
 代码片
