@@ -281,7 +281,7 @@ void TcpApp::on_StartBt_clicked()//启动服务器或者连接服务器
     }
     if (isCheckClient)//选择了客户端
     {
-        if (ui->IpEdit->text().isEmpty() || ui->IpEdit->text() == "请输入ip" || ui->IpEdit->text() == "请输入端口号")
+        if (ui->IpEdit->text().isEmpty() || ui->IpEdit->text() == "请输入ip" || ui->PortEdit->text() == "请输入端口号")
         {
             QMessageBox::warning(this, "提示", "请输入ip和端口号");
             ui->StartBt->setEnabled(true);
